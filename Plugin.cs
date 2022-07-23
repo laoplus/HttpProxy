@@ -25,7 +25,7 @@ namespace HttpProxy
                 "http://localhost:8888",
                 "A HTTP Proxy URL. If empty, no proxy will be used."
             );
-            _configHttpProxyURL.SettingChanged   += OnConfigChanged;
+            _configHttpProxyURL.SettingChanged += OnConfigChanged;
             InitProxy();
         }
 
